@@ -13,6 +13,9 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
+        # TITULO DA APLICAÇÃO
+        self.setWindowTitle("Curso de Python e PySide6")
+
         # CHAMA METDO DE CONFIGURAÇÃO INICIAL
         self.ui = Ui_MainWindow()
         self.ui.setup_ui(self)
@@ -24,3 +27,14 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainWindow()
     sys.exit(app.exec())
+
+
+
+
+
+
+
+
+
+
+
